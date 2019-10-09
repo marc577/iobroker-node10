@@ -1,7 +1,6 @@
 FROM mhart/alpine-node:10.16.3
 
 # inspired by https://github.com/Locke/docker-iobroker
-
 MAINTAINER Black0ut<me@black0ut.dev>
 
 RUN apk add --no-cache bash python build-base
